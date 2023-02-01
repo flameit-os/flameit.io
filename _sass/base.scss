@@ -1,0 +1,55 @@
+$primary: #89A55D;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, system-ui;
+}
+
+nav,
+header,
+footer {
+  flex-shrink: 0;
+  min-height: 5rem;
+  padding: 1rem;
+  background-color: $primary;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 1rem;
+  color: $primary;
+}
+
+nav {
+  background-color: lightgray;
+  > ul,
+  > ul > li,
+  > a {
+    display: inline-block;
+  }
+  ul {
+    padding-left: 0;
+  }
+  li {
+    vertical-align: top;
+    text-align: left;
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+      color: $primary;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+baseurl: "/"
+url: "stage.www.flameit.io"
+
+collections:
+  en:
+    output: true
+  de:
+    output: true
+
+
+sass:
+  sass_dir: _sass

@@ -1,0 +1,26 @@
+main:
+  de:
+    - label: "Startseite"
+      url: "/index.html"
+
+    - label: "Leistungen"
+      url: "/leistungen.html"
+      submenu:
+        - label: "Möbel"
+          url: "/moebel.html"
+
+        - label: "Türen"
+          url: "/tueren.html"
+
+  en:
+    - label: "Home"
+      url: "/index.html"
+
+    - label: "Services"
+      url: "/services.html"
+      submenu:
+        - label: "Furniture"
+          url: "/furniture.html"
+
+        - label: "Doors"
+          url: "/doors.html"

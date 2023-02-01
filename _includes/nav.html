@@ -1,0 +1,31 @@
+<nav>
+  <ul>
+    {% for item in site.data.navigation.main[page.lang] %}
+      <li class="{% if item.submenu %}dropdown{% endif %}">
+        <a href="{{ base.url }}{{ page.lang }}{{ item.url }}">
+          {{ item.label }}
+        </a>
+
+        {% if item.submenu %}
+          <ul>
+            {% for subItem in item.submenu %}
+              <li>
+                <a href="{{ base_url }}{{ page.lang }}{{ subItem.url }}">{{ subItem.label }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if page.lang == 'en' %}
+    {% assign translated = site.['de'] | where: "name", page.name %}
+  {% else %}
+    {% assign translated = site.['en'] | where: "name", page.name %}
+  {% endif %}
+
+  {% for item in translated %}
+    <a href="{{ base_url }}{{ item.url }}">{{ item.lang }}</a>
+  {% endfor %}
+</nav>
