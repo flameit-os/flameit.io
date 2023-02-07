@@ -14,16 +14,16 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
 
-title      : FlameIT - Immersion Cooling
-email      : contact-hole@flameit.io #this is also the email contact forms will go to
+title: FlameIT - Immersion Cooling
+email: contact-hole@flameit.io #this is also the email contact forms will go to
 description: "Immersion Cooling experts"
-author     : FlameIT Author
+author: FlameIT Author
 # logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+# path: assets\img\clients\creative-market.jpg
+# height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
@@ -43,4 +43,8 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-seo
- 
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
