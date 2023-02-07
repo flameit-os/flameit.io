@@ -43,7 +43,7 @@ bootstrap:
 
 
 # Build settings
-theme: jekyll-bootstrap-theme
+theme: minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
