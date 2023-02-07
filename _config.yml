@@ -18,17 +18,17 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title: FlameIT - Immersion Cooling
-email: contact-hole@flameit.io #this is also the email contact forms will go to
+email: black-hole@null.com #this is also the email contact forms will go to
 description: "Immersion Cooling experts"
 author: FlameIT Author
-# logo:     #optional, defaults to site title
-# path: assets\img\clients\creative-market.jpg
-# height: 60 #height in px, defaults to 52px
+logo:     #optional, defaults to site title
+  path: assets\img\clients\creative-market.jpg
+  height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: UA-136611749-1
 
 collections:
   portfolio:
