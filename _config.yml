@@ -15,7 +15,7 @@
 remote_theme: flameit-os/jekyll-flameit-theme
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 title: FlameIT - Immersion Cooling
 email: contact-hole@flameit.io #this is also the email contact forms will go to
@@ -44,7 +44,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# # Sass/SCSS
+# sass:
+#   sass_dir: _sass
+#   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
