@@ -9,10 +9,14 @@ caption:
   subtitle: Illustration
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+We like to say it's the best solution in the world, and we like to believe it is true.
+
+Our products are stuffed with modern technology.
+They are very durable and designed for the customer's needs
+
+Very capable and very efficient. They work under all conditions anywhere in the world.
 
 {:.list-inline}
 - Date: January 2017
 - Client: Threads
 - Category: Illustration
-
