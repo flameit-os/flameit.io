@@ -22,7 +22,7 @@ email: black-hole@null.com #this is also the email contact forms will go to
 description: "Immersion Cooling experts"
 author: FlameIT Author
 logo:     #optional, defaults to site title
-  path: assets\img\flameit-logo.png
+  path: assets/img/flameit-logo.png
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
@@ -32,7 +32,7 @@ analytics:
 
 collections:
   portfolio:
-  
+
 markdown: kramdown
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
@@ -45,7 +45,8 @@ plugins:
   - jekyll-seo
   - jekyll-gzip
 
-permalink: pretty
+# permalink: pretty
+
 
 # # Sass/SCSS
 # sass:
