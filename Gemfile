@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "github-pages" # https://github.com/github/pages-gem
   gem "jekyll-sitemap"
+  gem 'jekyll-gzip'
 end
 
 # Uncomment the following line if developing on Windows: 

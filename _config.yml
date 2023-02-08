@@ -43,6 +43,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-seo
+  - jekyll-gzip
 
 # # Sass/SCSS
 # sass:
