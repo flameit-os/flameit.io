@@ -47,7 +47,8 @@ plugins:
   - jekyll-seo
   - jekyll-gzip
 
-permalink: pretty
+# # permalink: pretty
+# permalink: /:collection/:path/
 
 # # Sass/SCSS
 # sass:

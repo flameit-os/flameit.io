@@ -2,7 +2,6 @@
 layout: page
 title: Privacy Policy
 background: grey
-permalink: privacy-policy
 ---
 
 <div class="col-lg-12 text-center">
