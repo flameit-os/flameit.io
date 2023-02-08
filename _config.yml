@@ -45,6 +45,8 @@ plugins:
   - jekyll-seo
   - jekyll-gzip
 
+permalink: pretty
+
 # # Sass/SCSS
 # sass:
 #   sass_dir: _sass
