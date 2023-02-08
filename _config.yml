@@ -33,7 +33,7 @@ analytics:
   google: UA-136611749-1
 
 collections:
-  portfolio:
+  - portfolio
 
 markdown: kramdown
 
