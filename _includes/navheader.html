@@ -3,7 +3,11 @@
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
           {%- if site.logo -%}
+          <picture>
+            <source srcset="{{ site.logo.path }}.webp" type="image/webp">
+            <source srcset="{{ site.logo.path }}" type="image/jpeg">
             <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+          </picture>          
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
