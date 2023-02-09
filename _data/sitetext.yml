@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: It's all about heat.
+    text: Liquid Immersion Cooling company
     button: Tell Me More
     buttonlink: "#services"
 
