@@ -39,31 +39,31 @@ skipped=0
 
 for file in $1/*
 do
-    name="${file%.*}"
+    # name="${file%.*}"
 
     # echo "FILE: $file"
     # echo "NAME: $name"
 
     # Skip the folder itself..
-    if [ "$name" = "./." ]; then
+    if [ "$file" = "./." ]; then
         # echo "SKIP: $name"
         continue;
     fi
 
-    if [[ $(file --mime-type -b $name.webp) == image/webp ]]; then
+    if [[ $(file --mime-type -b $file.webp) == image/webp ]]; then
 
         # echo "FOUND: $name.webp, skipping.."
         skipped=$((skipped+1))
 
     elif [[ $(file --mime-type -b $file) == image/*g ]]; then
 
-        echo "NOT FOUND: $name.webp"
+        echo "NOT FOUND: $file.webp"
 
-        newfile(){
-            echo "$file" | sed -r 's/(\.[a-z0-9]*$)/.webp/'
-        }
+        # newfile(){
+        #     echo "$file" | sed -r 's/(\.[a-z0-9]*$)/.webp/'
+        # }
 
-        $executable -q $quality "$file" -short -o "$(newfile)"
+        $executable -q $quality "$file" -short -o "$file.webp"
         converted=$((converted+1))
     fi
 done
