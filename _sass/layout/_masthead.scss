@@ -2,7 +2,8 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("#{$header-image}");
+  background-image: url("/assets/img/header-bg.jpg");
+  background-image: -webkit-image-set(url("/assets/img/header-bg.webp") 1x);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: bottom center;

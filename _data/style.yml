@@ -6,6 +6,4 @@ highlight: "#ff4300"
 #Image Customization
 #TODO: WebP Automatization
 header-image: "/assets/img/header-bg.jpg"
-header-image-webp: "/assets/img/header-bg.webp"
 contact-image: "/assets/img/map-image.png"
-contact-image-webp: "/assets/img/map-image.webp"
