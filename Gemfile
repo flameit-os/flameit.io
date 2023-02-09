@@ -9,8 +9,9 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-gzip"
   gem "jekyll-seo"
-  gem "jekyll-webp"
 end
+
+# WebP is not working with GitHub Pages so we are generating them manually during build.
 
 # Uncomment the following line if developing on Windows:
 # Performance-booster for watching directories on Windows

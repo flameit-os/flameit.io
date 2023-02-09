@@ -1,5 +1,5 @@
 <picture>
-    <source srcset="{{ include.src | prepend: site.url | replace:'.png','.webp' | replace:'.jpg','.webp' }}" type="image/webp">
+    <source srcset="{{ include.src | prepend: site.url }}.webp" type="image/webp">
     <source srcset="{{ include.src | prepend: site.url }}" type="image/jpeg">
     <img
         src="{{ include.src | prepend: site.url }}"
