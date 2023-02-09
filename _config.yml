@@ -14,7 +14,7 @@
 #theme: jekyll-flameit-theme
 remote_theme: flameit-os/jekyll-flameit-theme
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stage.www.flameit.io" 
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title: FlameIT - Immersion Cooling
@@ -33,7 +33,7 @@ analytics:
   google: UA-136611749-1
 
 collections:
-  portfolio:
+  - portfolio
 
 markdown: kramdown
 
