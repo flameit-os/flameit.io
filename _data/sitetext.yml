@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: It's all about heat.
+    title: Cool to Heat - Heat to Cool
     text: Liquid Immersion Cooling company
     button: Tell Me More
     buttonlink: "#services"
@@ -27,10 +27,18 @@ en: &DEFAULT_EN
         icon: fas fa-water 
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fa-solid fa-fireplace
+        icon: far fa-sun
       - title: "[Design&Manufacture](/)"
         desc: "Your description here, full **Markdown** support"
         icon: fas fa-tools
+      - title: "[Heating](/)"
+        desc: "Your description here, full **Markdown** support"
+        icon: fas fa-temperature-high
+      - title: "[Cooling](/)"
+        desc: "Your description here, full **Markdown** support"
+        icon: fas fa-temperature-low
+        
+        
 
   portfolio:
     title: "Portfolio"
