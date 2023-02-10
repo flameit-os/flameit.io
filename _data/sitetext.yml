@@ -11,14 +11,22 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: It's all about heat.
+    title: It's all about heat and cooling.
     text: Liquid Immersion Cooling company
     button: Tell Me More
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "<strong>Computers generate heat</strong>
+
+The laws of physics require that a certain amount of heat be used in computation. This is a consequence of the Second Law of
+Thermodynamics, and may not be violated under our current understanding of the laws of physics.
+
+Using these two principles (the Landauer bound and the Margolus–Levitin limit), we can determine quite accurately how much
+heat would be released by a computer that brute-forced a 128-bit cipher. The results are profoundly silly: it’s enough to boil the
+oceans and leave the planet as a charred, smoking ruin. 
+"
     section: services
     list:
       - title: "E-Commerce"
