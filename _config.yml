@@ -27,7 +27,7 @@ logo:     #optional, defaults to site title
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
-lang: en 
+
 languages: ["en", "es", "pl"] 
 
 analytics:
