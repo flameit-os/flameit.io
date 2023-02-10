@@ -12,7 +12,7 @@
 # in the templates via {{ site.myvariable }}.
 
 #theme: jekyll-flameit-theme
-remote_theme: flameit-os/jekyll-flameit-theme
+#remote_theme: flameit-os/jekyll-flameit-theme
 
 url: "https://stage.www.flameit.io"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -20,6 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: FlameIT - Immersion Cooling
 email: black-hole@null.com #this is also the email contact forms will go to
 description: "Immersion Cooling experts"
+keywords: 
 author: FlameIT Author
 logo:     #optional, defaults to site title
   path: assets/img/flameit-logo.png
@@ -36,6 +37,11 @@ collections:
   - portfolio
 
 markdown: kramdown
+
+social:
+  twitter: flameitio
+  facebook: flameit.io
+  instagram: flameit_io
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam

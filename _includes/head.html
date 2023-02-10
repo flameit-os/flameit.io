@@ -1,49 +1,56 @@
 <head>
   {% if site.analytics.google %}
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "{{ site.analytics.google }}");
-  </script>
-  <!-- End Google Analytics -->
+  <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag("js", new Date()); gtag("config", "{{ site.analytics.google }}");</script>
   {% endif %}
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ site.description }}">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="{{ site.description }}" />
+  <!-- <meta name="keywords" content="{{ site.keywords }}" /> -->
   <meta name="author" content="{{ site.author }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-  <!-- Bootstrap core CSS -->
   <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Custom fonts for this template -->
   <link href="{{ site.baseurl }}/assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/assets/css/agency.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="{{ site.baseurl }}/assets/img/icons/favicon.png" sizes="any">
+  <link rel="icon" href="{{ site.baseurl }}/assets/img/icons/favicon.svg" type="image/svg+xml">
 
-	<link rel="shortcut icon" href="/assets/img/flameit-100px.png" type="image/x-icon">
 
-  <!-- Custom styles for this theme -->
-  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="{{ site.baseurl }}/assets/css/agency.css" rel="stylesheet" />
+  <meta property="og:locale" content="{{ site.locale | slice: 0,2 | default: "en" }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:image" content="{{ site.baseurl }}/assets/img/head/meta-og-image-1200x630.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:image:type" content="image/png" />
 
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:site" content="@{{ site.social.twitter }}" />
+  <meta name="twitter:creator" content="@{{ site.social.twitter }}" />
+  <meta name="twitter:image" content="{{ site.baseurl }}/assets/img/head/meta-twitter-image-1200x630.png" />
+  <meta name="twitter:label1" content="Written by" />
+  <meta name="twitter:data1" content="{{ site.author }}" />
+  <!-- <meta name="twitter:label2" content="Time to read" />
+  <meta name="twitter:data2" content="A while" /> --> -->
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
   <style>
     #pagecontainer {
       padding-top: 150px;
     }
+
     @media only screen and (max-width: 991px) {
       #pagecontainer {
         padding-top: 100px;
