@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: It's all about heat.
+    title: It's all about heat and cooling.
     text: Liquid Immersion Cooling company
     button: Tell Me More
     buttonlink: "#services"
