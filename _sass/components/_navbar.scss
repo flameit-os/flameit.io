@@ -38,6 +38,9 @@
           &.active,
           &:hover {
             color: $primary;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
           }
         }
       }
@@ -53,6 +56,9 @@
         &.active,
         &:hover {
           color: $primary;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
         }
       }
     }
@@ -88,6 +94,9 @@
             &.active,
             &:hover {
               color: $primary;
+              -webkit-transition: all 0.3s;
+              -moz-transition: all 0.3s;
+              transition: all 0.3s;
             }
           }
         }
