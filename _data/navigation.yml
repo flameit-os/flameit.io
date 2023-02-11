@@ -12,28 +12,28 @@
 en: &DEFAULT_EN
   nav:
     - title: "Immersion Cooling"
-      url: "/immersion-cooling"
+      # url: "immersion-cooling"
       subnav:
         - title: "Liquid"
-          url: "/immersion-cooling/liquid"
+          url: "immersion-cooling/liquid"
         - title: "Dielectric Solvent"
-          url: "/immersion-cooling/dielectric-solvent"
+          url: "immersion-cooling/dielectric-solvent"
         - title: "Pumps"
-          url: "/immersion-cooling/pumps"
-        - title: "/material-compatibility"
-          url: "/immersion-cooling/material-compatibility"
+          url: "immersion-cooling/pumps"
+        - title: "Material compatibility"
+          url: "immersion-cooling/material-compatibility"
     - title: "Services"
-      section: services
+      url: "#services"
     - title: "Portfolio"
-      section: portfolio
+      url: "#portfolio"
     - title: "About"
-      section: about
+      url: "#about"
     - title: "Timeline"
-      section: timeline
+      url: "#timeline"
     - title: "Team"
-      section: team
+      url: "#team"
     - title: "Contact"
-      section: contact
+      url: "contact"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

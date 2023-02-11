@@ -27,6 +27,21 @@
 
   .navbar-nav {
     .nav-item {
+
+      .dropdown-menu {
+        background-color: $flameit-header-dropdown-menu;
+
+        .dropdown-item {
+          background-color: $flameit-header-dropdown-menu;
+          color: white;
+
+          &.active,
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+
       .nav-link {
         font-size: 90%;
         font-weight: 400;
@@ -63,6 +78,20 @@
 
     .navbar-nav {
       .nav-item {
+        .dropdown-menu {
+          background-color: $flameit-header-dropdown-menu;
+
+          .dropdown-item {
+            background-color: $flameit-header-dropdown-menu;
+            color: white;
+
+            &.active,
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
+
         .nav-link {
           padding: 1.1em 1em !important;
         }

@@ -27,7 +27,6 @@ logo:     #optional, defaults to site title
   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
-
 languages: ["en", "es", "pl"] 
 
 analytics:
@@ -52,8 +51,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo
   - jekyll-gzip
-############################################################
-
 
 # # permalink: pretty
 # permalink: /:collection/:path/

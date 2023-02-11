@@ -8,7 +8,7 @@
         <!-- <source srcset="{{ site.logo.path }}" type="image/jpeg"> -->
         <!-- <img height="{{ site.logo.height | default: 60 }}" src="{{ site.logo.path }}" /> -->
         <img height="{{ site.logo.height | default: 60 }}" src="/assets/img/head-logo.svg" />
-      </picture>     
+      </picture>
       {%- else -%} {{ site.title }} {%- endif -%}
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -20,28 +20,31 @@
       <ul class="navbar-nav text-uppercase ml-auto">
         {% if site.locale and site.locale != "" and site.locale != nil %}
         {%- for link in site.data.navigation[site.locale].nav -%}
+        {% if link.subnav[0] %}
+        <li class="nav-item dropdown">
+          {%- if link.url -%}
+          <a aria-expanded="true" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
+          {%- else -%}
+          <a aria-expanded="true" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="" role="button">{{ link.title }}</a>
+          {%- endif -%}
+          <ul class="dropdown-menu">
+            {% for sublink in link.subnav %}
+            <a class="dropdown-item" href="{{ site.baseurl }}/{{ sublink.url }}">{{ sublink.title }}</a>
+            {% endfor %}
+          </ul>
+        </li>
+        {% else %}
         <li class="nav-item">
           {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-          {%- elsif link.section -%}
-          <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
+          <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
           {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+          <a class="nav-link js-scroll-trigger">{{ link.title }}</a>
           {%- endif -%}
         </li>
+        {% endif %}
         {%- endfor -%}
         {% else %}
-        {%- for link in site.data.navigation.nav -%}
-        <li class="nav-item">
-          {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-          {%- elsif link.section -%}
-          <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
-          {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
+        <!-- <li>DON'T FORGET TO SET LOCALE! - CHECK _config</li> -->
         {% endif %}
       </ul>
     </div>
