@@ -83,8 +83,13 @@
     }
 
     .navbar-nav {
+      .nav-item:hover .dropdown-menu {
+        display: block;
+      }
+
       .nav-item {
         .dropdown-menu {
+          display: none;
           background-color: $flameit-header-dropdown-menu;
 
           .dropdown-item {
@@ -93,7 +98,8 @@
 
             &.active,
             &:hover {
-              color: $primary;
+              background-color: $primary;
+              color: white;
               -webkit-transition: all 0.3s;
               -moz-transition: all 0.3s;
               transition: all 0.3s;
