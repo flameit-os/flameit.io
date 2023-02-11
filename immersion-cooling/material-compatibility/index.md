@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Immersion Cooling Liquid
+title: "Immersion Cooling: Material Compatibility"
 background: grey
-# permalink: privacy-policy
 ---
+# Immersion Cooling: Material Compatibility
 
-# Immersion Cooling
+Immersion cooling is great.

@@ -93,6 +93,7 @@
       .nav-item {
         .dropdown-menu {
           display: none;
+          margin: 0;
           background-color: $flameit-header-dropdown-menu;
 
           .dropdown-item {

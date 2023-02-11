@@ -1,8 +1,5 @@
 ---
 layout: page
-title: Immersion Cooling Liquid
-background: grey
-# permalink: privacy-policy
+title: "Immersion Cooling: Pumps"
 ---
-
-# Immersion Cooling
+# Immersion Cooling: Pumps

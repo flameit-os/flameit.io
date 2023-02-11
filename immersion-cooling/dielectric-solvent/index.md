@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Immersion Cooling Liquid
+title: "Immersion Cooling: Dielectric Solvent"
 background: grey
 ---
-# Immersion Cooling
+# Immersion Cooling: Dielectric Solvent
 
 Immersion cooling is great.
-
