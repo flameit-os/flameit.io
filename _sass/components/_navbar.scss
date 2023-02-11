@@ -70,6 +70,13 @@
 
 @media (min-width: 992px) {
   #mainNav {
+    // Fixed position if min-width
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -131,6 +138,4 @@
   }
 }
 
-@media (max-width: 414px) {
-
-}
+@media (max-width: 450px) {}
