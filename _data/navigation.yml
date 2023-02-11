@@ -16,10 +16,12 @@ en: &DEFAULT_EN
       subnav:
         - title: "Liquid"
           url: "/immersion-cooling/liquid"
-        - title: "Solvent"
-          url: "/immersion-cooling/liquid"
+        - title: "Dielectric Solvent"
+          url: "/immersion-cooling/dielectric-solvent"
         - title: "Pumps"
-          url: "/immersion-cooling/liquid"
+          url: "/immersion-cooling/pumps"
+        - title: "/material-compatibility"
+          url: "/immersion-cooling/material-compatibility"
     - title: "Services"
       section: services
     - title: "Portfolio"
