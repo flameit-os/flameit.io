@@ -96,6 +96,7 @@
           background-color: $flameit-header-dropdown-menu;
 
           .dropdown-item {
+            @include heading-font;
             background-color: $flameit-header-dropdown-menu;
             color: white;
 
