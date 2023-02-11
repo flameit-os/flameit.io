@@ -11,6 +11,15 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
+    - title: "Immersion Cooling"
+      url: "/immersion-cooling"
+      subnav:
+        - title: "Liquid"
+          url: "/immersion-cooling/liquid"
+        - title: "Solvent"
+          url: "/immersion-cooling/liquid"
+        - title: "Pumps"
+          url: "/immersion-cooling/liquid"
     - title: "Services"
       section: services
     - title: "Portfolio"
