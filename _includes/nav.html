@@ -13,8 +13,7 @@
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
       data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-      aria-label="Toggle navigation">
-      Menu<i class="fas fa-bars"></i>
+      aria-label="Toggle navigation"> Menu <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
@@ -23,9 +22,11 @@
         {% if link.subnav[0] %}
         <li class="nav-item dropdown">
           {%- if link.url -%}
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
+          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
+            role="button" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
           {%- else -%}
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#">{{ link.title }}</a>
+          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
+            role="button" href="#">{{ link.title }}</a>
           {%- endif -%}
           <ul class="dropdown-menu">
             {% for sublink in link.subnav %}
