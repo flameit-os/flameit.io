@@ -125,7 +125,7 @@ en: &DEFAULT_EN
           - url: https://linkedin.com/pawelwfelixd
             icon: fab fa-linkedin-in
       - name: "Vivek Singh"
-        role: "APAC Sales Director"
+        role: "APAC Market"
         image: /assets/img/team/vivek.jpg
         social:
           - url: https://www.linkedin.com/in/vivek-singh-32a835125/
