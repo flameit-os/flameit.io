@@ -124,12 +124,12 @@ en: &DEFAULT_EN
         social:
           - url: https://linkedin.com/pawelwfelixd
             icon: fab fa-linkedin-in
-      - name: "Vivek Singh"
-        role: "APAC Market"
-        image: /assets/img/team/vivek.jpg
-        social:
-          - url: https://www.linkedin.com/in/vivek-singh-32a835125/
-            icon: fab fa-linkedin-in
+      # - name: "Vivek Singh"
+      #   role: "APAC Market"
+      #   image: /assets/img/team/vivek.jpg
+      #   social:
+      #     - url: https://www.linkedin.com/in/vivek-singh-32a835125/
+      #       icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
