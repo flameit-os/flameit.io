@@ -1,3 +1,4 @@
+--- # -----------------
 #
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 # Icons https://fontawesome.com/icons
@@ -8,7 +9,6 @@
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
 # English (default)
-# -----------------
 en: &DEFAULT_EN
   header:
     title: Cool to Heat-Heat to Cool
@@ -18,14 +18,14 @@ en: &DEFAULT_EN
 
   services:
     title: "Computers generate heat"
-    subtitle: "<p>The laws of physics require the use of a certain amount of heat in the computation. This is a consequence of the Second Law of Thermodynamics, and may not be violated under our current understanding of the laws of physics.</p><p>Further, physics requires that a certain amount of time has to be used in computation. This is a consequence of the Heisenberg Uncertainty Principle, and may not be violated under our current understanding of the laws of physics.</p><p>Using these two principles (the Landauer bound and the Margolus–Levitin limit), we can determine quite accurately how much heat would be released by a computer that brute-forced a 128-bit cipher. The results are profoundly silly: <br /><h3 class=\"section-subheading text-muted center\">It's enough to boil the oceans and leave the planet as a charred, smoking ruin.</h3></p>"
+    subtitle: '<p>The laws of physics require the use of a certain amount of heat in the computation. This is a consequence of the Second Law of Thermodynamics, and may not be violated under our current understanding of the laws of physics.</p><p>Further, physics requires that a certain amount of time has to be used in computation. This is a consequence of the Heisenberg Uncertainty Principle, and may not be violated under our current understanding of the laws of physics.</p><p>Using these two principles (the Landauer bound and the Margolus–Levitin limit), we can determine quite accurately how much heat would be released by a computer that brute-forced a 128-bit cipher. The results are profoundly silly: <br /><h3 class="section-subheading text-muted center">It''s enough to boil the oceans and leave the planet as a charred, smoking ruin.</h3></p>'
     text: ""
     section: services
-    # Icons https://fontawesome.com/icons   
+    # Icons https://fontawesome.com/icons
     list:
       - title: "[Immersion Cooling](/immersion-cooling/liquid)"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-water 
+        icon: fas fa-water
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: far fa-sun
@@ -38,8 +38,6 @@ en: &DEFAULT_EN
       - title: "[Cooling](/)"
         desc: "Your description here, full **Markdown** support"
         icon: fas fa-temperature-low
-        
-        
 
   portfolio:
     title: "Portfolio"
@@ -99,7 +97,7 @@ en: &DEFAULT_EN
         url: /
         logo: /assets/img/clients/themeforest.jpg
       - title: "Creative Market"
-        url: 
+        url:
         logo: /assets/img/clients/creative-market.jpg
 
   team:
@@ -133,7 +131,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call <a href=\"tel:+48509919755\">+48509919755</a>"
+    text: 'Lorem ipsum or call <a href="tel:+48509919755">+48509919755</a>'
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -145,6 +143,72 @@ en: &DEFAULT_EN
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
     submit: "Send Message"
+
+  immersion-cooling:
+    liquid:
+      features:
+        title: "Immersion Cooling Liquid Features"
+        features:
+          - title: Technically perfect
+            img: "icons/innovation.png"
+            img-alt: Technically perfect
+            list:
+              - txt: Fully synthetic, non-conductive dielectric
+              - txt: Free from sulphur, nitrogen and aromatics
+              - txt: Superior oxidation and thermal stability
+              - txt: Non-evaporating (fill once - use all the time)
+              - txt: Engineered to perfection
+              - txt: <strong>Best Thermal Conductivity on the market</strong>
+              - txt: <strong>Lowest viscosity</strong>
+              - txt: No aroma
+          - title: Environmentally friendly
+            img: "icons/hand_holding_plant.png"
+            img-alt: 
+            list:
+              - txt: Free from allergens
+              - txt: Does not present ozone depletion
+              - txt: Inherently biodegradable
+              - txt: Lower carbon footprint
+              - txt: Lower PUE (Power Usage Effectiveness) to unprecedented values ≤ 1.03
+              - txt: Make use of waste heat with ease
+          - title: Health and Safety
+            img: "icons/health-safety.png"
+            img-alt: 
+            list:
+              - txt: Does not irritate skin and eyes
+              - txt: Non-halogenated
+              - txt: Food grade
+              - txt: Non-toxic
+              - txt: No more hot spots that caused fires
+          - title: Benefits
+            img: "icons/benefits.png"
+            img-alt: 
+            list:
+              - txt: Get more computational power
+              - txt: Lower power consumption
+              - txt: Extend life of Your IT equipment
+              - txt: Remove noise
+              - txt: Increase IT hardware density
+              - txt: Compatible with any IT hardware
+          - title: Hardware
+            img: "icons/cpu.png"
+            img-alt: 
+            list:
+              - txt: Designed for highest material compatibility
+              - txt: Tailor-made liquid
+              - txt: Protects from moisture, corrosion, dust and vibrations
+              - txt: Reduced failure rates
+              - txt: Increased lifespan
+          - title: Performance
+            img: "icons/performance.png"
+            img-alt: 
+            list:
+              - txt: Get more computational power
+              - txt: Lower power consumption
+              - txt: Extend life of Your Iequipment
+              - txt: Remove noise and vibrations
+              - txt: More than 5 time better heat conductivity than air.
+              
 
   footer:
     legal: "Privacy Policy"

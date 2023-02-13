@@ -4,6 +4,9 @@ title: Immersion Cooling Liquid
 ---
 # Immersion Cooling Liquid
 
+{% assign data=site.data.sitetext[site.locale].immersion-cooling.liquid.features %}
+{% include features.html data=data %}
+
 Our fully synthetic, **Immersion Cooling liquid** is a revolutionary dielectric cooling product that is designed to provide maximum cooling efficiency and reliability for any electronic device. The liquid is a non-conductive, non-toxic, high temperature flashpoint dielectric fluid that is designed to provide superior cooling performance and reliability. The liquid is designed to be used in direct contact with electronic parts, providing a direct cooling path to the components . This direct cooling path allows for more efficient cooling, as our liquid is able to absorb more than 5 times more heat from the components than air cooling.
 
 Full immersion in coolant is a highly efficient way to keep hardware components cool and clean.
@@ -46,4 +49,8 @@ Concerned about **[material compatibility](/immersion-cooling/material-compatibi
 
 ### Immersion Cooling fluid at work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sBgkyj-ILFk" title="FlameIT Immersion Cooling liquid - FITCool6 at work video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html url="https://www.youtube.com/embed/sBgkyj-ILFk" title="FlameIT Immersion Cooling liquid - FITCool6 at work video" %}
+
+<!--
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sBgkyj-ILFk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
