@@ -27,19 +27,19 @@ Superior performance of our fully synthetic, thermally conductive and electrical
 
 ## Physico-chemical properties
 
-|Properties|Value|Units|
------------|-----|----|
-|**Colour**|**Transparent/No color**||
-|**Kinematic Viscosity @ 40°C**|**6**|mm2/s|
-|**Thermal Conductivity @ 40°C**|**0,142**|W/m*K|
-|**Breakdown Voltage**  |**42**|kV|
-|**Density @ 15°C**|**800**|kg/m3|
-|**Flash Point**|**>150**|°C|
-|Relative Permittivity (Dielectric Constant)|2,02||
-|Pour Point|>-6|°C|
-|Autoignition temperature|>354|°C|
-|D.C. Resistivity @ 60°C**|9,9|T Ohm m|
-|Sulphur Content|<1|mg/kg|
+|Properties                                 |Value                |Units       |
+--------------------------------------------|---------------------|------------|
+|Colour                                     |Transparent/No color |            |
+|Kinematic Viscosity @ 40°C                 |6                    |mm2/s       |
+|Thermal Conductivity @ 40°C                |0,142                |W/m*K       |
+|Breakdown Voltage                          |42                   |kV          |
+|Density @ 15°C                             |800                  |kg/m3       |
+|Flash Point                                |>150                 |°C          |
+|Relative Permittivity (Dielectric Constant)|2,02                 |            |
+|Pour Point                                 |>-6                  |°C          |
+|Autoignition temperature                   |>354                 |°C          |
+|D.C. Resistivity @ 60°C                    |9,9                  |T Ohm m     |
+|Sulphur Content                            |<1                   |mg/kg       |
 {: .md-table}
 
 ## R&D - Material Compatibility
