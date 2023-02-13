@@ -50,7 +50,3 @@ Concerned about **[material compatibility](/immersion-cooling/material-compatibi
 ### Immersion Cooling fluid at work
 
 {% include youtube.html url="https://www.youtube.com/embed/sBgkyj-ILFk" title="FlameIT Immersion Cooling liquid - FITCool6 at work video" %}
-
-<!--
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sBgkyj-ILFk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
--->
