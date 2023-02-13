@@ -176,10 +176,10 @@ en: &DEFAULT_EN
             img-alt: 
             list:
               - txt: Does not irritate skin and eyes
-              - txt: Non-halogenated
               - txt: Food grade
               - txt: Non-toxic
-              - txt: No more hot spots that caused fires
+              - txt: Non-carcinogenic
+              - txt: Non-halogenated
           - title: Benefits
             img: "icons/benefits.png"
             img-alt: 

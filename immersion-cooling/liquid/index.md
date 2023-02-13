@@ -40,6 +40,7 @@ Superior performance of our fully synthetic, thermally conductive and electrical
 |Autoignition temperature|>354|°C|
 |D.C. Resistivity @ 60°C**|9,9|T Ohm m|
 |Sulphur Content|<1|mg/kg|
+{: .md-table}
 
 ## R&D - Material Compatibility
 
