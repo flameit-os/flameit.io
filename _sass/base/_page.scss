@@ -39,10 +39,8 @@ h6 {
   h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    @include serif-font;
   }
 }
 @media (min-width: 768px) {
@@ -68,4 +66,20 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+// Features Section
+.features-section {
+  padding: 100px 0;
+  h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 75px;
+    text-transform: none;
+  }
 }

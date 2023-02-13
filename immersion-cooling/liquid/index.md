@@ -45,8 +45,6 @@ Superior performance of our fully synthetic, thermally conductive and electrical
 
 Concerned about **[material compatibility](/immersion-cooling/material-compatibility)**? We are here to help You and Your company. Together with our R&D team and labolatory we are ready to test chemical compatibility of provided samples using accepted industrial research methods.
 
-## Videos
+## Immersion Cooling fluid at work
 
-### Immersion Cooling fluid at work
-
-{% include youtube.html url="https://www.youtube.com/embed/sBgkyj-ILFk" title="FlameIT Immersion Cooling liquid - FITCool6 at work video" %}
+{% include youtube.html url="https://www.youtube.com/embed/sBgkyj-ILFk" title="FlameIT Immersion Cooling liquid - FITCool6 at work video"  %}
