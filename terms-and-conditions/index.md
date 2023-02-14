@@ -2,9 +2,6 @@
 layout: page
 title: Terms and Conditions
 ---
-
-# {{ page.title }}
-
 **Last updated February 13, 2023**
 
 ## TABLE OF CONTENTS
