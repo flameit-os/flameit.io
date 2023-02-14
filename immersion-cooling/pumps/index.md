@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Immersion Cooling Ready™ Pumps"
-icon: "icons/water-pump.png"
+icon: "icons/immersion-cooling-pump.png"
 ---
 **We are probably the first in the world to supply small circulating pumps made entirely of materials compatible with liquids used for Immersion Cooling.**
 

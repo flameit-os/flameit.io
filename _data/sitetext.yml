@@ -147,7 +147,7 @@ en: &DEFAULT_EN
   immersion-cooling:
     liquid:
       features:
-        title: "Immersion Cooling Liquid Features"
+        title: "FITCool6 Immersion Cooling Liquid Features"
         features:
           - title: Technically perfect
             img: "icons/innovation.png"

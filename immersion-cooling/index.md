@@ -1,12 +1,9 @@
 ---
 layout: page
 title: Immersion Cooling
+icon: "icons/helmet.png"
 ---
-# {{ page.title }}
-
-Immersion cooling is great.
-
-Read more about Immersion Cooling
+## Read more about Immersion Cooling
 
 * [Immersion coolig: Liquid]({{ site.baseurl }}immersion-cooling/liquid)
 * [Immersion coolig: Dielectric solvent]({{ site.baseurl }}/immersion-cooling/dielectric-solvent)
