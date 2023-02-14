@@ -1,9 +1,8 @@
 ---
 layout: page
 title: About us
+icon: "icons/brainstorm.png"
 ---
-# {{ page.title }}
-
 We are developing most advanced and best [liquid immersion cooling]({{ baseurl }}/immersion-cooling/liquid/) solution for electronics in the world. We have created the most modern, most innovative and efficient solution that enables many times more effective cooling of electronic devices by immersing them in our specially designed, fully synthetic, single-phase liquid.
 
 Compared to air cooling, our solution allows to reduce the overall operating costs of the equipment by several dozen percent. We are able to reduce the costs of cooling alone by over 95%. Savings come from the fact that no fans and air conditioning are needed to dissipate heat. The liquid reaches every nook and cranny of the submerged equipment, and for the operation of the whole thing you only need a pump forcing the heated liquid to the heat exchanger. Recovered waste heat, in a useful form, can be further used to further increase the profitability of the installation. Flooding with liquid and removing the fans completely eliminate noise, vibrations, extend the life of the equipment and enable us to obtain unprecedented computing power.
