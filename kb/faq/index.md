@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Knowladge Base: Frequently Asked Questions"
-icon: "icons/brainstorm.png"
+icon: "icons/faq.png"
 ---
 <ul>
   {% for post in site.posts %}

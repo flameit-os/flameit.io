@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: faq
 title:  "What is TCO - Total Cost of Ownership"
-tags: Begginer FAQ
+tags: FAQ
 excerpt_separator: <!--more-->
 permalink: kb/faq/what-is-tco
+icon: "icons/faq.png"
 ---
 **TCO**, or **Total Cost of Ownership**, is a term used to refer to the total costs associated with acquiring and using a product or service over its lifetime. This includes not only the initial purchase price of the product or service, but also any ongoing costs for maintenance, repairs, and replacement parts, as well as any indirect costs such as the opportunity cost of using the product or service.
 
