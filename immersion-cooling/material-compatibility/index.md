@@ -3,7 +3,7 @@ layout: page
 title: "Immersion Cooling: Material Compatibility"
 icon: "icons/puzzle.png"
 ---
-{% include img.html src="material-compatibility.jpg" alt="FlameIT - Immersion Cooling - Material Compatibility testing" class="" %}
+<!-- {% include img.html src="material-compatibility.jpg" alt="FlameIT - Immersion Cooling - Material Compatibility testing" class="" %} -->
 
 ## Material Compatibility testing service for Immersion Cooling
 
