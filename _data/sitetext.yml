@@ -211,6 +211,7 @@ en: &DEFAULT_EN
               
   footer:
     legal: "Privacy Policy"
+    terms: "Terms and Conditions"
     social:
       - url: https://twitter.com/flameitio
         icon: "fab fa-twitter"
