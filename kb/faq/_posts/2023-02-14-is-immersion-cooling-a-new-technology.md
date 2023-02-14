@@ -8,8 +8,6 @@ icon: "icons/faq.png"
 ---
 No, **[immersion cooling]({{ site.baseurl }}/immersion-cooling)** is not a new technology. It has been used in various industries for decades, primarily in the data center and server industries. It is becoming increasingly popular as a way to reduce energy costs and improve cooling efficiency.
 
-<!--more-->
-
 But, let briefly talk about history and who was first.
 
 * Before 1887: First electrical systems (transofrmers) were immersed in dielectric fluid.
@@ -21,3 +19,5 @@ But, let briefly talk about history and who was first.
 Read more about [The CRAY-2 Computer System](http://s3data.computerhistory.org/brochures/cray.cray2.1985.102646185.pdf)
 
 In conclusion, **[immersion cooling]({{ site.baseurl }}/immersion-cooling)** is not a new technology, but rather one that has been used for decades in various industries. It is becoming increasingly popular as a way to reduce energy costs and improve cooling efficiency.
+
+<!--more-->
