@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "What is OPEX"
-tags: faq
+tags: FAQ
 excerpt_separator: <!--more-->
-# permalink: kb/faq/what-is-tco
+permalink: kb/faq/what-is-opex
 ---
 Excerpt with multiple paragraphs
 

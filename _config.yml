@@ -52,7 +52,8 @@ plugins:
   - jekyll-seo
   - jekyll-gzip
 
-permalink: /:categories/:title/
+# Permalinks breake 404 - I have no idea why.
+# permalink: /:categories/:title/
 
 # # Sass/SCSS
 # sass:

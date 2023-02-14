@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is TCO - Total Cost of Ownership"
-tags: begginer faq
+tags: Begginer FAQ
 excerpt_separator: <!--more-->
 permalink: kb/faq/what-is-tco
 ---
