@@ -209,7 +209,6 @@ en: &DEFAULT_EN
               - txt: Remove noise and vibrations
               - txt: More than 5 time better heat conductivity than air.
               
-
   footer:
     legal: "Privacy Policy"
     social:
@@ -223,6 +222,8 @@ en: &DEFAULT_EN
         icon: "fab fa-github"
       - url: https://www.instagram.com/flameit_io/
         icon: "fab fa-instagram"
+      - url: https://bit.ly/flameit-discord
+        icon: "fab fa-discord"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
