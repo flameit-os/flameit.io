@@ -2,7 +2,7 @@
 layout: page
 title: Immersion Cooling
 ---
-# Immersion Cooling
+# {{ page.title }}
 
 Immersion cooling is great.
 

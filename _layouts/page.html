@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
-{% include nav.html %}
-{% if page.background == "grey" or page.background == "gray" %}
-<script>document.getElementById("page-top").className="bg-light";</script>
-{% endif %}
-<div class="container page-container" id="pagecontainer">{{ content }}</div>
+{% include nav.html %}{% if page.background == "grey" or page.background == "gray" %}
+<script>document.getElementById("page-top").className = "bg-light";</script>{% endif %}
+<div class="container page-container" id="pagecontainer">
+    <div class="page-header">
+        {% if page.icon and page.icon != "" and page.icon != nil %}{% include img.html
+        src=page.icon class="page-icon" %}{% endif %}
+        <h1>{{ page.title }}</h1>
+    </div>
+    {{ content }}
+</div>

@@ -2,7 +2,7 @@
 layout: page
 title: Immersion Cooling Liquid
 ---
-# Immersion Cooling Liquid
+# {{ page.title }}
 
 {% assign data=site.data.sitetext[site.locale].immersion-cooling.liquid.features %}
 {% include features.html data=data %}
