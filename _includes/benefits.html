@@ -1,0 +1,35 @@
+<!-- Benefits -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].benefits.section | default: " benefits" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].benefits.title | default:
+          "Benefits" }}</h2>
+        {% if site.data.sitetext[site.locale].benefits.subtitle %}
+        <div class="card col-md-8 mx-auto">
+          <div class="card-body">
+            <h3 class="card-title">{{ site.data.sitetext[site.locale].benefits.subtitle }}</h3>
+            <div class="card-text">{{ site.data.sitetext[site.locale].benefits.text }}</div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="row text-center">
+        {% for benefit in site.data.sitetext[site.locale].benefits.list %}
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ benefit.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="benefit-heading">{{ benefit.title | markdownify }}</h4>
+          {% if benefit.desc %}<div class="text-muted">{{ benefit.desc | markdownify }}</div>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+</section>
+{% endif %}
+<!-- End Benefits -->
