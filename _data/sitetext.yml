@@ -26,24 +26,39 @@ en: &DEFAULT_EN
     section: benefits
     # Icons https://fontawesome.com/icons
     list:
-      - title: "[Immersion Cooling](/immersion-cooling/liquid)"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Fully synthetic liquid"
+        desc: "Our state of the art, **fully synthetic** and best performing [immersion cooling liquid]({{ site.baseurl }}/immersion-cooling/liquid) on the market is Your best choice for Immersion Cooling. It has lowest viscosity, best thermal conductivity, is safe for people and is designed for highest material compatibility. It has superior oxidation and thermal stability, protects from moisture, corrosion, dust and vibrations"
         icon: fas fa-water
       - title: "Save on electricity"
         desc: "A cooling system is one of the most expensive parts of any data center. As energy consumption by cooling data center IT equipment can be over 40% of total energy consumption, efficient cooling for large data centers is essential for reducing operation costs. You can lower drastically amount of energy consumed by Your IT equpment with our Immersion Cooling technology."
         icon: fas fa-bolt
-      - title: "[Design & Manufacture](/)"
+      - title: "Design & Manufacture"
         desc: "Your description here, full **Markdown** support"
         icon: fas fa-tools
-      - title: "[Heating](/)"
+      - title: "Heating"
         desc: "Your description here, full **Markdown** support"
-        icon: fas fa-temperature-high
-      - title: "[Cooling](/)"
+        icon: fas fa-fire-alt
+      - title: "Cooling"
         desc: "Your description here, full **Markdown** support"
         icon: fas fa-temperature-low
-      - title: Reduce space
-        desc: "Reduce hardware footprint"
+      - title: Reduced Space Requirements
+        desc: "Immersion cooling can be more compact than traditional air cooling methods, which can help to reduce the physical footprint of a data center or electronic device."
         icon: fas fa-building
+      - title: Increased Reliability
+        desc: "Immersion cooling can improve the reliability of electronic components by reducing the likelihood of overheating and thermal stress. This can help to prolong the lifespan of components and reduce the risk of failure."
+        icon: fas fa-toolbox
+      - title: Higher Cooling Efficiency
+        desc: Immersion cooling has been shown to be much more efficient at cooling electronics compared to traditional air cooling methods. This is because the cooling fluid has a much higher heat capacity than air, allowing it to absorb more heat and remove it from the components more effectively.
+        icon: fas fa-toolbox
+      - title: Reduced Energy Consumption
+        desc: Because immersion cooling is more efficient than traditional air cooling, it can reduce energy consumption and lower the overall operating costs of a data center or electronic device.
+        icon: fas fa-toolbox
+      - title: Reduced Noise
+        desc: Traditional air cooling methods can be noisy, especially in large data centers with many cooling fans. Immersion cooling can be much quieter, as it doesn't require fans or other moving parts to operate.
+        icon: fas fa-toolbox
+      - title: Environmental Benefits
+        desc: Immersion cooling can be more environmentally friendly than traditional air cooling methods, as it can reduce the energy consumption and carbon footprint of a data center or electronic device.
+        icon: fas fa-toolbox
 
   portfolio:
     title: "Portfolio"
