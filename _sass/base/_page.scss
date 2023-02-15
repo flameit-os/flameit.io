@@ -40,6 +40,14 @@ h6 {
   }
 }
 
+.card {
+  background-color: $gray-100;
+  .card-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 .page-container {
 
   h2,

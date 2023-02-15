@@ -11,7 +11,7 @@
 # English (default)
 en: &DEFAULT_EN
   header:
-    title: Cool to Heat-Heat to Cool
+    title: "#CoolToHeat - #HeatToCool"
     text: Liquid Immersion Cooling company
     button: Tell Me More
     buttonlink: "#services"
