@@ -3,7 +3,7 @@ layout: faq
 title: Is this true that computers convert all electrical energy into heat?
 tags: FAQ
 excerpt_separator: <!--more-->
-permalink: kb/faq/immersion-cooling-a-new-technology
+permalink: kb/faq/is-this-true-that-computers-convert-electrical-energy-into-heat
 icon: "icons/faq.png"
 ---
 It is true that computers and other electronic devices ultimately convert all of the electrical energy they consume into heat. This is a consequence of the laws of thermodynamics, which dictate that energy cannot be created or destroyed, only transformed from one form to another.
