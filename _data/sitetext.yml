@@ -29,9 +29,9 @@ en: &DEFAULT_EN
       - title: "[Immersion Cooling](/immersion-cooling/liquid)"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-water
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: far fa-sun
+      - title: "Save on electricity"
+        desc: "A cooling system is one of the most expensive parts of any data center. As energy consumption by cooling data center IT equipment can be over 40% of total energy consumption, efficient cooling for large data centers is essential for reducing operation costs. You can lower drastically amount of energy consumed by Your IT equpment with our Immersion Cooling technology."
+        icon: fas fa-bolt
       - title: "[Design & Manufacture](/)"
         desc: "Your description here, full **Markdown** support"
         icon: fas fa-tools
@@ -41,6 +41,9 @@ en: &DEFAULT_EN
       - title: "[Cooling](/)"
         desc: "Your description here, full **Markdown** support"
         icon: fas fa-temperature-low
+      - title: Reduce space
+        desc: "Reduce hardware footprint"
+        icon: fas fa-building
 
   portfolio:
     title: "Portfolio"
