@@ -1,5 +1,12 @@
 // Styling for the benefits section
-.benefit-heading {
-  margin: 15px 0;
-  text-transform: none;
+.benefit-box {
+
+  margin-top: 50px;
+  padding-top: 20px;
+  background-color: $gray-100;
+
+  .benefit-heading {
+    margin: 15px 0;
+    text-transform: none;
+  }
 }
