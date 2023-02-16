@@ -1,7 +1,7 @@
 ---
 title: Containers
 subtitle: 10, 20 and 40ft Sea Containers Immersion Cooling solutions
-image: /assets/img/portfolio/40ft-container.png
+image: /assets/img/portfolio/40ft-full.png
 alt: 10, 20 and 40ft Immersion Cooling Sea Containers
 
 caption:

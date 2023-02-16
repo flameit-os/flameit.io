@@ -1,14 +1,14 @@
 ---
-title: Control & Monitor
-subtitle: FlameIT designed PCB modules
-image: /assets/img/portfolio/pcb-full.jpg
-alt: 
-
 caption:
-  title: Control & Monitor
-  subtitle: FlameIT designed PCB modules
-  thumbnail: assets/img/portfolio/pcb-thumbnail.jpg
-  icon: fas fa-microchip
+  title: Liquid
+  subtitle: Immersion Cooling Liquid
+  thumbnail: assets/img/portfolio/fluid-thumbnail.jpg
+  icon: fas fa-water
+
+title: Liquid
+subtitle: Immersion Cooling Liquid
+image: /assets/img/portfolio/fluid-full.jpg
+alt: Shirts on a hanger
 ---
 We like to say it's the best solution in the world, and we like to believe it is true.
 

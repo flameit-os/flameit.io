@@ -1,16 +1,14 @@
 ---
 caption:
-  title: DIY Community Support
-  subtitle: We support DIY communities.
-  thumbnail: assets/img/portfolio/explore-thumbnail.jpg
-  icon: fab fa-discord
+  title: Tailor-made designs
+  subtitle: We are doing 
+  thumbnail: assets/img/portfolio/tailormade-thumbnail.jpg
+  icon: fas fa-tshirt
 
-title: DIY Community Support
-subtitle: We support DIY communities.
-image: /assets/img/portfolio/explore-full.jpg
-alt: 
-
-
+title: Tailor-made designs
+subtitle: We are doing tailor-made immersion cooling solutions
+image: /assets/img/portfolio/tailormade-full.jpg
+alt: Shirts on a hanger
 ---
 We like to say it's the best solution in the world, and we like to believe it is true.
 
