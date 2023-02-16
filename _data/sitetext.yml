@@ -93,10 +93,13 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
+    title: "About Us"
+    text: ""   
+    paragraphs:
+      - p: We are committed to providing innovative and sustainable cooling solutions for your hardware needs. We understand the importance of protecting the environment and human safety, which is why our technology is designed with these factors in mind. Our cooling systems are highly efficient and utilize non-toxic dielectric immersion cooling liquid that is safe for both people and the planet. We take pride in being an eco-friendly and responsible company, and we are constantly exploring new ways to minimize our carbon footprint.
+      - p: In addition to our commitment to the environment and human safety, we prioritize the protection and longevity of your hardware. Our immersion cooling technology is highly effective at preventing heat damage and prolonging the life of your equipment. We understand that hardware can be a significant investment, and we strive to provide solutions that will maximize your investment and reduce the need for costly repairs or replacements. Our team of experts is dedicated to providing top-quality customer service and support, ensuring that your hardware is always running at optimal performance.
+      - p: We are passionate about immersion cooling and its potential to revolutionize the way we cool our hardware. Our mission is to provide innovative and sustainable solutions that meet the needs of our customers while also protecting the environment and human safety. We believe that by combining cutting-edge technology with responsible business practices, we can create a better future for both our clients and the world we live in. Thank you for choosing our company, and we look forward to serving you.
 
   clients:
     section: clients
