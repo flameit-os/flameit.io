@@ -24,7 +24,7 @@ en: &DEFAULT_EN
     # Icons https://fontawesome.com/icons
     list:
       - title: "Fully synthetic liquid"
-        desc: "Our state of the art, **fully synthetic** and best performing [immersion cooling liquid]({{ site.baseurl }}/immersion-cooling/liquid) on the market is Your best choice for Immersion Cooling. It has lowest viscosity, best thermal conductivity, is safe for people and is designed for highest material compatibility. It has superior oxidation and thermal stability, protects from moisture, corrosion, dust and vibrations"
+        desc: "Our state of the art, **fully synthetic** and best performing [immersion cooling liquid](/immersion-cooling/liquid) on the market is Your best choice for Immersion Cooling. It has lowest viscosity, best thermal conductivity, is safe for people and is designed for highest material compatibility. It has superior oxidation and thermal stability, protects from moisture, corrosion, dust and vibrations"
         icon: fas fa-water
 
       - title: Cooling Savings
