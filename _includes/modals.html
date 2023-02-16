@@ -16,11 +16,7 @@
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">{{ project.title }}</h2>
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
-              <picture>
-                <source srcset="{{ project.image }}.webp" type="image/webp">
-                <source srcset="{{ project.image }}" type="image/jpeg">
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}" />
-              </picture>
+              {% include img.html src=project.image alt=project.subtitle class="img-fluid d-block mx-auto" %}
               <p>{{ project.content }}</p>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fas fa-times"></i>

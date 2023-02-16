@@ -1,14 +1,14 @@
 ---
 caption:
-  title: Tailor-made designs
-  subtitle: We are doing 
-  thumbnail: assets/img/portfolio/tailormade-thumbnail.jpg
+  title: Design service
+  subtitle: We are doing tailor-made immersion cooling solutions
+  thumbnail: portfolio/tailormade-thumbnail.jpg
   icon: fas fa-tshirt
 
-title: Tailor-made designs
-subtitle: We are doing tailor-made immersion cooling solutions
-image: /assets/img/portfolio/tailormade-full.jpg
-alt: Shirts on a hanger
+title: Design service
+subtitle: FlameIT - Immersion Cooling - Tailor made, immersion cooling desing solutios
+image: portfolio/tailormade-full.jpg
+alt: FlameIT - Immersion Cooling - Tailor made, immersion cooling desing solutios
 ---
 We like to say it's the best solution in the world, and we like to believe it is true.
 

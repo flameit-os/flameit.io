@@ -1,14 +1,16 @@
 ---
-title: Sea Containers
-subtitle: 10, 20 and 40ft Sea Containers Immersion Cooling solutions
-image: /assets/img/portfolio/40ft-full.jpg
-alt: 10, 20 and 40ft Immersion Cooling Sea Containers
-
 caption:
   title: Sea Containers
   subtitle: 10, 20 and 40ft Sea Containers Immersion Cooling solutions
-  thumbnail: assets/img/portfolio/40ft-thumbnail.jpg
+  thumbnail: portfolio/40ft-thumbnail.jpg
   icon: fas fa-ship
+
+title: FlameIT - Immersion Cooling - Sea Containers
+subtitle: 10, 20 and 40ft Sea Containers Immersion Cooling solutions
+image: portfolio/40ft-full.jpg
+alt: 10, 20 and 40ft Immersion Cooling Sea Containers
+
+
 ---
 We like to say it's the best solution in the world, and we like to believe it is true.
 

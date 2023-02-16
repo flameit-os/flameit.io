@@ -1,14 +1,14 @@
 ---
-title: Control & Monitor
-subtitle: FlameIT designed PCB modules
-image: /assets/img/portfolio/pcb-full.jpg
-alt: 
-
 caption:
   title: Control & Monitor
   subtitle: FlameIT designed PCB modules
-  thumbnail: assets/img/portfolio/pcb-thumbnail.jpg
+  thumbnail: portfolio/pcb-thumbnail.jpg
   icon: fas fa-microchip
+
+title: Control & Monitor
+subtitle: FlameIT designed PCB modules
+image: portfolio/pcb-full.jpg
+alt: ""
 ---
 We like to say it's the best solution in the world, and we like to believe it is true.
 
