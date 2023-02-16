@@ -59,7 +59,7 @@ en: &DEFAULT_EN
     title: "Portfolio"
     text: "Products and Services"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "Timeline"
