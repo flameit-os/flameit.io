@@ -106,18 +106,18 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "no" #"yes/no"
     list:
-      - title: "envato"
-        url: /
-        logo: /assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: /
-        logo: /assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: /
-        logo: /assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url:
-        logo: /assets/img/clients/creative-market.jpg
+      # - title: "envato"
+      #   url: /
+      #   logo: /assets/img/clients/envato.jpg
+      # - title: "designmodo"
+      #   url: /
+      #   logo: /assets/img/clients/designmodo.jpg
+      # - title: "themeforest"
+      #   url: /
+      #   logo: /assets/img/clients/themeforest.jpg
+      # - title: "Creative Market"
+      #   url:
+      #   logo: /assets/img/clients/creative-market.jpg
 
   team:
     title: "OUR AMAZING TEAM"
@@ -150,7 +150,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: 'Lorem ipsum or call <a href="tel:+48509919755">+48509919755</a>'
+    text: '<a href="tel:+48509919755">+48509919755</a>'
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -166,7 +166,7 @@ en: &DEFAULT_EN
   immersion-cooling:
     liquid:
       features:
-        title: "FITCool6 Immersion Cooling Liquid Features"
+        title: "FlameIT - FITCool6"
         features:
           - title: Technically perfect
             img: "icons/innovation.png"

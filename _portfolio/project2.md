@@ -1,13 +1,14 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: /assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+title: Containers
+subtitle: 10, 20 and 40ft Sea Containers Immersion Cooling solutions
+image: /assets/img/portfolio/40ft-container.png
+alt: 10, 20 and 40ft Immersion Cooling Sea Containers
 
 caption:
-  title: Explore
-  subtitle: Graphic Design
-  thumbnail: assets/img/portfolio/02-thumbnail.jpg
+  title: Containers
+  subtitle: 10, 20 and 40ft Sea Containers Immersion Cooling solutions
+  thumbnail: assets/img/portfolio/40ft-thumbnail.jpg
+  icon: fas fa-ship
 ---
 We like to say it's the best solution in the world, and we like to believe it is true.
 
@@ -15,8 +16,3 @@ Our products are stuffed with modern technology.
 They are very durable and designed for the customer's needs
 
 Very capable and very efficient. They work under all conditions anywhere in the world.
-
-{:.list-inline}
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
