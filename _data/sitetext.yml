@@ -61,9 +61,9 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+  values:
+    title: "Values"
+    text: "FlameIT Values"
     section: timeline
     # left is the default
     #start_align: "left"
