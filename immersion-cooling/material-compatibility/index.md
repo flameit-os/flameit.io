@@ -2,11 +2,9 @@
 layout: page
 title: "Immersion Cooling: Material Compatibility"
 icon: "icons/puzzle.png"
+# cover-alt: "FlameIT - Immersion Cooling - Material Compatibility testing"
+cover-img: "material-compatibility.jpg"
 ---
-<div class="text-center">
-{% include img.html src="material-compatibility.jpg" alt="FlameIT - Immersion Cooling - Material Compatibility testing" class="page-cover" %}
-</div>
-
 ## Material Compatibility testing benefit for Immersion Cooling
 
 Our material compatibility benefit is designed to help you determine the best materials for your immersion cooling system. We provide a comprehensive list of materials that are compatible with immersion cooling, including metals, plastics, and other materials. Additionally, we provide a range of testing benefits to ensure that the materials you choose are suitable for your system. Our testing benefits include chemical compatibility testing, thermal shock testing, and corrosion testing. With our material compatibility benefit, you can be sure that your immersion cooling system is built with the best materials for your application.

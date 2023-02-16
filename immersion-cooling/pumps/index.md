@@ -2,12 +2,9 @@
 layout: page
 title: "Immersion Cooling Ready™ Pumps"
 icon: "icons/immersion-cooling-pump.png"
+cover-img: pump.jpg
 ---
 **We are probably the first in the world to supply small circulating pumps made entirely of materials compatible with liquids used for Immersion Cooling.**
-
-<div class="text-center">
-{% include img.html src="pump.jpg" alt="FlameIT - Immersion Cooling Ready Pumps" class="page-cover" %}
-</div>
 
 If you are looking for a reliable and efficient pump for your Immersion Cooling system, look no further than our Immersion Cooling Ready TM pumps.
 
