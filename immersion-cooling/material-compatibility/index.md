@@ -3,7 +3,9 @@ layout: page
 title: "Immersion Cooling: Material Compatibility"
 icon: "icons/puzzle.png"
 ---
-<!-- {% include img.html src="material-compatibility.jpg" alt="FlameIT - Immersion Cooling - Material Compatibility testing" class="" %} -->
+<div class="text-center">
+{% include img.html src="material-compatibility.jpg" alt="FlameIT - Immersion Cooling - Material Compatibility testing" class="page-cover" %}
+</div>
 
 ## Material Compatibility testing benefit for Immersion Cooling
 
