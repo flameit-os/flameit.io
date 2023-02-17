@@ -149,8 +149,8 @@ en: &DEFAULT_EN
       #       icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: '<a href="tel:+48509919755">+48509919755</a>'
+    title: "Contact Us / Request Quote"
+    text: 
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."

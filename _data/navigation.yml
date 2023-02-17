@@ -36,7 +36,7 @@ en: &DEFAULT_EN
         - title: "FAQ"
           url: "kb/faq"
     - title: "Contact"
-      url: "contact"
+      url: "#contact"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
