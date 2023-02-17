@@ -5,3 +5,4 @@ _site
 Gemfile.lock
 _environmet.yml
 CNAME
+_config.yml
