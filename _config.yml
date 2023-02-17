@@ -14,7 +14,7 @@
 #theme: jekyll-flameit-theme
 #remote_theme: flameit-os/jekyll-flameit-theme
 
-url: "https://stage.www.flameit.io"
+url: "https://flameit.io"
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title: FlameIT - Immersion Cooling
@@ -26,8 +26,8 @@ formspree_form_path: f/xlekbejj
 # Response: {"next":"/thanks?language=pl","ok":true}
 # Query: name=felixd&phone=12312312&email=felixd%40wp.pl&message=asdfasdfadsf
 
-description: "Immersion Cooling experts"
-keywords: 
+description: "Discover FlameIT's revolutionary immersion cooling technology for powerful and efficient computing. Learn how our solution can take your data center to the next level."
+keywords: "immersion cooling, immersion cooling liquid, immersion cooling tanks, immersion cooling containers, immersion cooling pods"
 author: FlameIT Author
 logo:     #optional, defaults to site title
   path: assets/img/flameit-logo.png
