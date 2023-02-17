@@ -1,12 +1,12 @@
 ---
 caption:
   title: Liquid
-  subtitle: Immersion Cooling Liquid
+  subtitle: Immersion Cooling Liquid with best performance on the market
   thumbnail: portfolio/fluid-thumbnail.jpg
   icon: fas fa-water
 
 title: Liquid
-subtitle: Immersion Cooling Liquid
+subtitle: Immersion Cooling Liquid with best performance on the market
 image: header-bg.jpg
 alt: Immersion Cooling Liquid
 ---
