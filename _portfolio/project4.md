@@ -1,14 +1,14 @@
 ---
 caption:
-  title: Design service
-  subtitle: We are doing tailor-made immersion cooling solutions
+  title: Servers
+  subtitle: We provide comprehensive and complete solutions
   thumbnail: portfolio/tailormade-thumbnail.jpg
-  icon: fas fa-tshirt
+  icon: fas fa-server
 
-title: Design service
-subtitle: FlameIT - Immersion Cooling - Tailor made, immersion cooling desing solutios
+title: Servers
+subtitle: FlameIT - Immersion Cooling - We provide comprehensive and complete solutions
 image: portfolio/tailormade-full.jpg
-alt: FlameIT - Immersion Cooling - Tailor made, immersion cooling desing solutios
+alt: FlameIT - Immersion Cooling - We provide comprehensive and complete solutions
 ---
 We like to say it's the best solution in the world, and we like to believe it is true.
 
