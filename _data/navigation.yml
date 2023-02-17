@@ -1,0 +1,47 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  nav:
+    - title: "Immersion Cooling"
+      # url: "immersion-cooling"
+      subnav:
+        - title: "Liquid"
+          url: "immersion-cooling/liquid"
+        - title: "Dielectric Solvent"
+          url: "immersion-cooling/dielectric-solvent"
+        - title: "Pumps"
+          url: "immersion-cooling/pumps"
+        - title: "Material compatibility"
+          url: "immersion-cooling/material-compatibility"
+    - title: "Benefits"
+      url: "#benefits"
+    - title: "Portfolio"
+      url: "#portfolio"
+    - title: "About"
+      url: "about"
+    - title: "KB"
+      # url: "kb"
+      subnav:
+        - title: "Knowledge Base"
+          url: "kb"
+        - title: "FAQ"
+          url: "kb/faq"
+    - title: "Contact"
+      url: "#contact"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

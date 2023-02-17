@@ -1,0 +1,24 @@
+<!-- Features.html -->
+<section class="features-section">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="section-heading">{{ include.data.title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for feature in include.data.features %}
+      <div class="col-md-6 text-center">
+        <div class="col">
+          {% include img.html src=feature.img alt=feature.img-alt class="feature-icon" %}
+          <h3 class="feature-title">{{ feature.title }}</h3>
+        </div>
+        <div class="row text-left">
+          <ul class>{% for f in feature.list %}<li>{{ f.txt }}</li>{% endfor %}</ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- End Features.html -->

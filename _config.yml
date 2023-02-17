@@ -1,0 +1,68 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
+
+# Site settings
+# are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+#theme: jekyll-flameit-theme
+#remote_theme: flameit-os/jekyll-flameit-theme
+
+url: "https://stage.www.flameit.io"
+baseurl: "" # the subpath of your site, e.g. /blog
+
+title: FlameIT - Immersion Cooling
+
+email: NxNDntcAg4ffhaskjw@flameit.io #this is also the email contact forms will go to
+formspree_form_path: f/xlekbejj
+
+# Web Form:
+# Response: {"next":"/thanks?language=pl","ok":true}
+# Query: name=felixd&phone=12312312&email=felixd%40wp.pl&message=asdfasdfadsf
+
+description: "Immersion Cooling experts"
+keywords: 
+author: FlameIT Author
+logo:     #optional, defaults to site title
+  path: assets/img/flameit-logo.png
+  height: 60 #height in px, defaults to 52px
+
+locale: "en-US" # See available languages in _data/sitetext.yml
+languages: ["en", "es", "pl"] 
+
+analytics:
+  google: UA-136611749-1
+
+collections:
+  - portfolio
+
+markdown: kramdown
+
+social:
+  twitter: flameitio
+  facebook: flameit.io
+  instagram: flameit_io
+
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo
+  - jekyll-gzip
+
+# Permalinks breake 404 - I have no idea why.
+# permalink: /:categories/:title
+
+# # Sass/SCSS
+# sass:
+#   sass_dir: _sass
+#   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

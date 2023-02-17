@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% include nav.html %}
+<div class="container post-container " id="postcontainer">
+    <div class="post-header">
+        <a href="{{ site.baseurl }}/kb/faq/" alt="FlameIT - Immersion Cooling - Frequently Asked Questions">
+            {% if page.icon and page.icon != "" and page.icon != nil %}{% include img.html src=page.icon
+            class="post-icon" alt=page.title %}</a>
+        {% else %}
+        <div class="button">FAQ</div>
+        {% endif %}
+        </a>
+        <h1>{{ page.title }}</h1>
+    </div>
+    {{ content }}
+    <div class="row text-center">
+        <div class="col">
+            <a href="{{ site.baseurl }}/kb/faq/" alt="FlameIT - Immersion Cooling - Frequently Asked Questions">
+                <button type="button" class="btn btn-primary">More articles on FAQ</button>
+            </a>
+        </div>
+    </div>
+</div>

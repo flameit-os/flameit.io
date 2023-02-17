@@ -1,0 +1,254 @@
+--- # -----------------
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+# Icons https://fontawesome.com/icons
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+en: &DEFAULT_EN
+  header:
+    title: "#CoolToHeat - #HeatToCool"
+    text: Liquid Immersion Cooling company
+    button: Tell Me More
+    buttonlink: "#benefits"
+
+  benefits:
+    title: "Benefits"
+    subtitle: "Computers generate heat"
+    text: "<p>The laws of physics require the use of a certain amount of heat in the computation. This is a consequence of the Second Law of Thermodynamics, and may not be violated under our current understanding of the laws of physics.</p><p>Further, physics requires that a certain amount of time has to be used in computation. This is a consequence of the Heisenberg Uncertainty Principle, and may not be violated under our current understanding of the laws of physics.</p><p>Using these two principles (the Landauer bound and the Margolus–Levitin limit), we can determine quite accurately how much heat would be released by a computer that brute-forced a 128-bit cipher. The results are profoundly silly: <strong>It's enough to boil the oceans and leave the planet as a charred, smoking ruin.</strong></p><p><strong>Computer processors consume electrical energy, and dissipate this energy in the form of heat. We can definitely assume that 99.99% of the energy that a computer consumes in CPU/GPU/memory and other microchips is converted into heat. Our state of the art technology helps you take advantage of that to  recover and reuse all waste heat.</strong></p>"
+    section: benefits
+    # Icons https://fontawesome.com/icons
+    list:
+      - title: "Fully synthetic liquid"
+        desc: "Our state of the art, **fully synthetic** and best performing [immersion cooling liquid](/immersion-cooling/liquid) on the market is Your best choice for Immersion Cooling. It has lowest viscosity, best thermal conductivity, is safe for people and is designed for highest material compatibility. It has superior oxidation and thermal stability, protects from moisture, corrosion, dust and vibrations"
+        icon: fas fa-water
+
+      - title: Cooling Savings
+        desc: "A cooling system is one of the most expensive parts of any data center. As energy consumption by cooling data center IT equipment can be over 40% of total energy consumption, efficient cooling for large data centers is essential for reducing operation costs. You can lower drastically amount of energy consumed by Your IT equpment with our Immersion Cooling technology."
+        icon: fas fa-wallet
+
+      - title: Higher Cooling Efficiency
+        desc: Immersion cooling has been shown to be much more efficient at cooling electronics compared to traditional air cooling methods. This is because the cooling fluid has a much higher heat capacity and thermal conductivity than air, allowing it to absorb more heat and remove it from the components more effectively.
+        icon: fas fa-temperature-low
+
+      - title: Reduced Space Requirements
+        desc: "Immersion cooling can be more compact than traditional air cooling methods, which can help to reduce the physical footprint of a data center or electronic device."
+        icon: fas fa-building
+
+      - title: Increased Reliability
+        desc: "Immersion cooling can improve the reliability of electronic components by reducing the likelihood of overheating and thermal stress. This can help to prolong the lifespan of components and reduce the risk of failure."
+        icon: fas fa-tools
+
+      - title: Reduced Energy Consumption
+        desc: Because immersion cooling is more efficient than traditional air cooling, it can reduce energy consumption and lower the overall operating costs of a data center (even more than 90% of cooling costs can be reduced) or electronic device.
+        icon: fas fa-bolt
+
+      - title: Reduced Noise
+        desc: Traditional air cooling methods can be VERY noisy, especially in large data centers with many cooling fans. With Immersion cooling technology, whichc doesn't require fans to operate all that noise is removed.
+        icon: fas fa-volume-mute
+
+      - title: Environmental Benefits
+        desc: Immersion cooling is more environmentally friendly than traditional air cooling methods because it can reduce the energy consumption and carbon footprint of a data center or electronic device. With the ability to reuse heat, it is the best option for the highest sustainability.
+        icon: fab fa-envira
+
+  portfolio:
+    title: "Portfolio"
+    text: "Products and Services"
+    section: portfolio
+    closebutton: "Close"
+
+  values:
+    title: "Values"
+    text: "FlameIT Values"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: /assets/img/timeline/1.jpg
+        alt:
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: /assets/img/timeline/2.jpg
+        alt:
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: /assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: /assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    section: about
+    title: "About Us"
+    text: "Immersion cooling at Your service"   
+    paragraphs:
+      - p: We are committed to providing innovative and sustainable cooling solutions for your hardware needs. We understand the importance of protecting the environment and human safety, which is why our technology is designed with these factors in mind. Our cooling systems are highly efficient and utilize non-toxic dielectric immersion cooling liquid that is safe for both people and the planet. We take pride in being an eco-friendly and responsible company, and we are constantly exploring new ways to minimize our carbon footprint.
+      - p: In addition to our commitment to the environment and human safety, we prioritize the protection and longevity of your hardware. Our immersion cooling technology is highly effective at preventing heat damage and prolonging the life of your equipment. We understand that hardware can be a significant investment, and we strive to provide solutions that will maximize your investment and reduce the need for costly repairs or replacements. Our team of experts is dedicated to providing top-quality customer service and support, ensuring that your hardware is always running at optimal performance.
+      - p: We are passionate about immersion cooling and its potential to revolutionize the way we cool our hardware. Our mission is to provide innovative and sustainable solutions that meet the needs of our customers while also protecting the environment and human safety. We believe that by combining cutting-edge technology with responsible business practices, we can create a better future for both our clients and the world we live in. Thank you for choosing our company, and we look forward to serving you.
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "no" #"yes/no"
+    list:
+      # - title: "envato"
+      #   url: /
+      #   logo: /assets/img/clients/envato.jpg
+      # - title: "designmodo"
+      #   url: /
+      #   logo: /assets/img/clients/designmodo.jpg
+      # - title: "themeforest"
+      #   url: /
+      #   logo: /assets/img/clients/themeforest.jpg
+      # - title: "Creative Market"
+      #   url:
+      #   logo: /assets/img/clients/creative-market.jpg
+
+  team:
+    title: "OUR AMAZING TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      # - name: "Super Man"
+      #   role: "Lead Designer"
+      #   image: /assets/img/team/superman.jpg
+      #   social:
+      #     - url: https://twitter.com
+      #       icon: fab fa-twitter
+      #     - url: https://facebook.com
+      #       icon: fab fa-facebook-f
+      #     - url: https://linkedin.com
+      #       icon: fab fa-linkedin-in
+      - name: "Paweł Wojciechowski"
+        role: "CEO"
+        image: /assets/img/team/pawelw.jpg
+        social:
+          - url: https://linkedin.com/pawelwfelixd
+            icon: fab fa-linkedin-in
+      # - name: "Vivek Singh"
+      #   role: "APAC Market"
+      #   image: /assets/img/team/vivek.jpg
+      #   social:
+      #     - url: https://www.linkedin.com/in/vivek-singh-32a835125/
+      #       icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contact Us / Request Quote"
+    text: 
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  immersion-cooling:
+    liquid:
+      features:
+        title: "FlameIT - FITCool6"
+        features:
+          - title: Technically perfect
+            img: "icons/innovation.png"
+            img-alt: Technically perfect
+            list:
+              - txt: Fully synthetic, non-conductive dielectric
+              - txt: Free from sulphur, nitrogen and aromatics
+              - txt: Superior oxidation and thermal stability
+              - txt: Non-evaporating (fill once - use all the time)
+              - txt: Engineered to perfection
+              - txt: <strong>Best Thermal Conductivity on the market</strong>
+              - txt: <strong>Lowest viscosity</strong>
+              - txt: No aroma
+          - title: Environmentally friendly
+            img: "icons/hand_holding_plant.png"
+            img-alt: 
+            list:
+              - txt: Free from allergens
+              - txt: Does not present ozone depletion
+              - txt: Inherently biodegradable
+              - txt: Lower carbon footprint
+              - txt: Lower PUE (Power Usage Effectiveness) to unprecedented values ≤ 1.03
+              - txt: Make use of waste heat with ease
+          - title: Health and Safety
+            img: "icons/health-safety.png"
+            img-alt: 
+            list:
+              - txt: Does not irritate skin and eyes
+              - txt: Food grade
+              - txt: Non-toxic
+              - txt: Non-carcinogenic
+              - txt: Non-halogenated
+          - title: Benefits
+            img: "icons/benefits.png"
+            img-alt: 
+            list:
+              - txt: Get more computational power
+              - txt: Lower power consumption
+              - txt: Extend life of Your IT equipment
+              - txt: Remove noise
+              - txt: Increase IT hardware density
+              - txt: Compatible with any IT hardware
+          - title: Hardware
+            img: "icons/cpu.png"
+            img-alt: 
+            list:
+              - txt: Designed for highest material compatibility
+              - txt: Tailor-made liquid
+              - txt: Protects from moisture, corrosion, dust and vibrations
+              - txt: Reduced failure rates
+              - txt: Increased lifespan
+          - title: Performance
+            img: "icons/performance.png"
+            img-alt: 
+            list:
+              - txt: Get more computational power
+              - txt: Lower power consumption
+              - txt: Extend life of Your equipment
+              - txt: Remove noise and vibrations
+              - txt: More than 5 time better heat conductivity than air.
+              
+  footer:
+    legal: "Privacy Policy"
+    terms: "Terms and Conditions"
+    social:
+      - url: https://twitter.com/flameitio
+        icon: "fab fa-twitter"
+      - url: https://www.facebook.com/flameit.io
+        icon: "fab fa-facebook-f"
+      - url: https://www.linkedin.com/company/flameit/
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/flameit-os
+        icon: "fab fa-github"
+      - url: https://www.instagram.com/flameit_io/
+        icon: "fab fa-instagram"
+      - url: https://bit.ly/flameit-discord
+        icon: "fab fa-discord"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
