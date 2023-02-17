@@ -1,4 +1,4 @@
-<!-- Portfolio Grid -->
+<!-- _includes/portfolio_grid.html -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].portfolio.section | default: " portfolio"
   }}">
@@ -32,4 +32,4 @@
   </div>
 </section>
 {% endif %}
-{% include modals.html %}
+{% include portfolio_modals.html %}

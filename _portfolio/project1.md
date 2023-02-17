@@ -10,16 +10,8 @@ subtitle: Immersion Cooling Tanks
 image: portfolio/tanks-full.jpg
 alt: FlameIT - Immersion Cooling Tanks
 ---
-We like to say it's the best solution in the world, and we like to believe it is true.
+Immersion cooling tanks are a highly advanced solution for cooling high-performance computing systems, such as ASIC and GPU-based mining rigs. By submerging the systems in a non-conductive liquid, heat can be dissipated far more effectively than traditional air-cooling methods, resulting in higher performance, lower energy consumption, and increased reliability.
 
-```
-2 * ASIC tank
-4 * ASIC tank
-6 * GPU tank
-12 * GPU tank
-```
+At our company, we are proud to offer immersion cooling tanks that are designed for a variety of use cases. Our product line includes 2, 4, 8-ASIC and bigger tanks, as well as GPU dedicated tanks that can hold minium 6 GPUs and more, all of which are packed with modern technology and built to last. We pride ourselves on our ability to customize our solutions to meet the unique needs of our customers, ensuring that our tanks are as capable and efficient as possible, regardless of the specific application or location.
 
-Our products are stuffed with modern technology.
-They are very durable and designed for the customer's needs
-
-Very capable and very efficient. They work under all conditions anywhere in the world.
+Our immersion cooling tanks are built to the highest standards, ensuring that they are capable of performing under all conditions, anywhere in the world. With their advanced design and exceptional performance, our tanks are the perfect solution for those seeking to maximize the performance and longevity of their high-performance computing systems. Whether you are a miner looking to optimize your ASIC or GPU rigs, or a researcher looking to maximize the performance of your compute cluster using 19'' servers, our immersion cooling tanks are the ideal choice for all of your cooling needs.
