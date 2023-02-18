@@ -20,7 +20,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: FlameIT - Immersion Cooling
 
 email: NxNDntcAg4ffhaskjw@flameit.io #this is also the email contact forms will go to
-formspree_form_path: f/xlekbejj
+# formspree_form_path: f/xlekbejj
+formspree_form_url: https:/send.flameit.io
+formspree_form_path: quote/
 
 # Web Form:
 # Response: {"next":"/thanks?language=pl","ok":true}
