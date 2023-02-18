@@ -22,7 +22,7 @@ Superior performance of our fully synthetic, thermally conductive and electrical
 * Telecommunications
 * AI / ML
 
- Fewer failures rates and easy use of waste heat significantly reduces the operating costs. Cut massively energy consumption and lower carbon footprint of Your  equpment with our tailor-made solutions.
+Fewer failures rates and easy use of waste heat significantly reduces the operating costs. Cut massively energy consumption and lower carbon footprint of Your  equpment with our tailor-made solutions.
 
 ## Physico-chemical properties
 
@@ -39,6 +39,7 @@ Superior performance of our fully synthetic, thermally conductive and electrical
 |Autoignition temperature                   |>354                 |°C          |
 |D.C. Resistivity @ 60°C                    |9,9                  |T Ohm m     |
 |Sulphur Content                            |<1                   |mg/kg       |
+|Neutralisation Value                       |<0,01                |mg KOH/g    |
 {: .md-table}
 
 ## R&D - Material Compatibility
