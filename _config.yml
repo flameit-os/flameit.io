@@ -20,9 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: FlameIT - Immersion Cooling
 
 email: NxNDntcAg4ffhaskjw@flameit.io #this is also the email contact forms will go to
-# formspree_form_path: f/xlekbejj
-formspree_form_url: https:/send.flameit.io
-formspree_form_path: quote/
+formspree_form_url: https:/send.flameit.io/quote/
 
 # Web Form:
 # Response: {"next":"/thanks?language=pl","ok":true}
@@ -51,10 +49,6 @@ social:
   twitter: flameitio
   facebook: flameit.io
   instagram: flameit_io
-
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
 
 plugins:
   - jekyll-remote-theme
