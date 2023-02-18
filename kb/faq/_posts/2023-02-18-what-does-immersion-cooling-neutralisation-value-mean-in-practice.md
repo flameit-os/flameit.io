@@ -3,7 +3,7 @@ layout: faq
 title:  "What does immersion cooling liquid Neutralisation Value mean in practice?"
 tags: FAQ liquid
 excerpt_separator: <!--more-->
-permalink: kb/faq/what-does-immersion-cooling-neutralisation-value-mean-in-practice.
+permalink: kb/faq/what-does-immersion-cooling-neutralisation-value-mean-in-practice
 icon: "icons/faq.png"
 ---
 If you're using immersion cooling to keep your servers and other high-performance computing (HPC) equipment cool, you're already ahead of the game. Compared to traditional air or water cooling, immersion cooling is a highly efficient and effective method for dissipating heat from electronic components.
