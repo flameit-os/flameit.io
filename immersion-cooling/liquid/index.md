@@ -39,7 +39,7 @@ Fewer failures rates and easy use of waste heat significantly reduces the operat
 |Autoignition temperature                   |>354                 |°C          |
 |D.C. Resistivity @ 60°C                    |9,9                  |T Ohm m     |
 |Sulphur Content                            |<1                   |mg/kg       |
-|Neutralisation Value                       |<0,01                |mg KOH/g    |
+|[Neutralisation Value](https://flameit.io/kb/faq/what-does-immersion-cooling-neutralisation-value-mean-in-practice)                       |<0,01                |mg KOH/g    |
 {: .md-table}
 
 ## R&D - Material Compatibility
