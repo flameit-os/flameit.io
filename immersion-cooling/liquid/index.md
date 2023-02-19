@@ -33,10 +33,9 @@ Fewer failures rates and easy use of waste heat significantly reduces the operat
 |Thermal Conductivity @ 40°C                |0,142                |W/m*K       |
 |Breakdown Voltage                          |42                   |kV          |
 |Density @ 15°C                             |800                  |kg/m3       |
-|Flash Point                                |>150                 |°C          |
+|Flash Point                                |159                  |°C          |
 |Relative Permittivity (Dielectric Constant)|2,02                 |            |
 |Pour Point                                 |>-6                  |°C          |
-|Autoignition temperature                   |>354                 |°C          |
 |D.C. Resistivity @ 60°C                    |9,9                  |T Ohm m     |
 |Sulphur Content                            |<1                   |mg/kg       |
 |[Neutralisation Value](https://flameit.io/kb/faq/what-does-immersion-cooling-neutralisation-value-mean-in-practice)                       |<0,01                |mg KOH/g    |
