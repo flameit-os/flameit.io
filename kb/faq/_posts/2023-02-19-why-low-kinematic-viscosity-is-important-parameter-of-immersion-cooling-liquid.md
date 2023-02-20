@@ -5,6 +5,7 @@ tags: FAQ liquid
 excerpt_separator: <!--more-->
 permalink: kb/faq/why-low-kinematic-viscosity-is-important-parameter-of-immersion-cooling-liquid
 icon: "icons/faq.png"
+description: "In immersion cooling, a liquid is used to transfer heat away from electronic components, such as CPUs or GPUs. The kinematic viscosity of the immersion cooling liquid is an important parameter because it affects the efficiency of heat transfer and the overall performance of the cooling system."
 ---
 In immersion cooling, a liquid is used to transfer heat away from electronic components, such as CPUs or GPUs. The kinematic viscosity of the immersion cooling liquid is an important parameter because it affects the efficiency of heat transfer and the overall performance of the cooling system.
 
