@@ -13,7 +13,7 @@ Kinematic viscosity is a measure of a fluid's resistance to flow under gravity. 
 
 In immersion cooling, the fluid needs to be able to flow around and through the electronic components in order to effectively transfer heat away from them. If the kinematic viscosity of the liquid is too high, it will not flow easily and may not be able to effectively remove heat from the components. On the other hand, if the kinematic viscosity is too low, the liquid may not form a sufficient thermal boundary layer around the components, leading to decreased heat transfer efficiency.
 
-Therefore, it is important to select an [immersion cooling liquid]({{ site.baseurl }}/immersion-cooling/liqud) with a kinematic viscosity that is suitable for the specific cooling application. Typically used, immersion cooling fluids with kinematic viscosities in the range of 10 cSt (centistokes) are used in electronic cooling applications, as this range provides a good balance between flowability and thermal performance.
+Therefore, it is important to select an [immersion cooling liquid]({{ site.baseurl }}/immersion-cooling/liqud) with a kinematic viscosity that is suitable for the specific cooling application. Typically, immersion cooling fluids with kinematic viscosities in the range of 10 cSt (centistokes) are used in electronic cooling applications, as this range provides a good balance between flowability and thermal performance.
 
 In addition to its impact on heat transfer efficiency, the kinematic viscosity of immersion cooling liquid also has a significant effect on the performance and lifespan of the pumps used in the cooling system.
 
