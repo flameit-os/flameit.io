@@ -29,7 +29,7 @@ Fewer failures rates and easy use of waste heat significantly reduces the operat
 |Properties                                 |Value                |Units       |
 --------------------------------------------|---------------------|------------|
 |Colour                                     |Transparent/No color |            |
-|Kinematic Viscosity @ 40°C                 |6                    |mm2/s       |
+|[Kinematic Viscosity]({{ site.baseurl }}/kb/faq/why-low-kinematic-viscosity-is-important-parameter-of-immersion-cooling-liquid) @ 40°C                 |6                    |mm2/s       |
 |Thermal Conductivity @ 40°C                |0,142                |W/m*K       |
 |Breakdown Voltage                          |42                   |kV          |
 |Density @ 15°C                             |800                  |kg/m3       |
@@ -38,7 +38,7 @@ Fewer failures rates and easy use of waste heat significantly reduces the operat
 |Pour Point                                 |>-6                  |°C          |
 |D.C. Resistivity @ 60°C                    |9,9                  |T Ohm m     |
 |Sulphur Content                            |<1                   |mg/kg       |
-|[Neutralisation Value](https://flameit.io/kb/faq/what-does-immersion-cooling-neutralisation-value-mean-in-practice)                       |<0,01                |mg KOH/g    |
+|[Neutralisation Value]({{ site.baseurl }}/kb/faq/what-does-immersion-cooling-neutralisation-value-mean-in-practice)                       |<0,01                |mg KOH/g    |
 {: .md-table}
 
 ## R&D - Material Compatibility
