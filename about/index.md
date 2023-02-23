@@ -60,7 +60,7 @@ obtain unprecedented computing power.
                             / Noizz.pl</a> - [<a
                             href="{{ site.baseurl }}/assets/pdf/articles/onet-noizz-kopie-i-ogrzewa.pdf"
                             alt="Polak kopie kryptowaluty i ogrzewa dom koparką kryptowalut">PL</a> / <a
-                            href="{{ site.baseurl }}/assets/pdf/onet-noizz-mines-cryptocurrency-and-heats-house.pdf"
+                            href="{{ site.baseurl }}/assets/pdf/articles/onet-noizz-mines-cryptocurrency-and-heats-house.pdf"
                             alt="A Pole mines cryptocurrencies and heats the house with a cryptocurrency cryptominer">EN</a>]
                     </li>
                     <li><strong>Gniezno24.com</strong></li>
