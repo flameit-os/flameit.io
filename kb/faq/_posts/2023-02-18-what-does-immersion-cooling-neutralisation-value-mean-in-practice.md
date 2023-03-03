@@ -12,11 +12,13 @@ But like any cooling system, the performance of immersion cooling depends on the
 
 The **Neutralisation Value** value is determined by titrating a sample of the liquid with a potassium hydroxide (KOH) solution. The titration process measures the amount of KOH required to neutralize the acidic components in the liquid, and the resulting Neutralisation Value value is expressed in milligrams of KOH per gram of liquid.
 
-So why is Neutralisation Value important for [immersion cooling liquid]({{ site.baseurl }}/immersion-cooling/liquid/)? **The answer is simple**: the performance of immersion cooling depends on the quality of the cooling liquid. In practice, a high value indicates a high level of acidity in the liquid, which can be caused by contaminants or degradation products leading to premature failure. High acidity can cause corrosion, reduce insulation properties and ultimately reduce the service life of your equipment. It can also degrade the insulation properties of the liquid, reducing its ability to dissipate heat. A low value, on the other hand, indicates that the liquid is in good condition and is not going to cause any problems.
+### So why is Neutralisation Value important for [immersion cooling liquid]({{ site.baseurl }}/immersion-cooling/liquid/)? 
+
+**The answer is simple**: the performance of immersion cooling depends on the quality of the cooling liquid. In practice, a high value indicates a high level of acidity in the liquid, which can be caused by contaminants or degradation products leading to premature failure. High acidity can cause corrosion, reduce insulation properties and ultimately reduce the service life of your equipment. It can also degrade the insulation properties of the liquid, reducing its ability to dissipate heat. A low value, on the other hand, indicates that the liquid is in good condition and is not going to cause any problems.
 
 At our company, we understand the importance of that and the quality of the cooling liquid. That's why we provide highest quality immersion cooling liquid on the market, that is strictly designed to deliver best performance and longevity for your electronic equipment. Our product has Neutralisation Value **lower than <0,01 mg KOH/g** to ensure best performance and protection of Your devices.
 
-We will write it again: **We deliver product strictly designed to be in contact with electronic components, computers.**
+We will write it again: **We deliver product strictly designed to be in contact with electronic components with best performance on the market**
 
 With new knowledge You can now check more physico-chemical properties of our [immersion cooling liquid]({{ site.baseurl }}/immersion-cooling/liquid/#physico-chemical-properties)
 
