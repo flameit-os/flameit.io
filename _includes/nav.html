@@ -37,11 +37,7 @@
         {% else %}
         <li class="nav-item">
           {%- if link.url -%}
-            {%- if link.url == "ext" -%}
-            <a class="nav-link js-scroll-trigger" href="{{ link.exturl }}">{{ link.title }}</a>
-            {%- else -%}
-            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
-            {%- endif -%}
+          <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
           {%- else -%}
           <a class="nav-link js-scroll-trigger">{{ link.title }}</a>
           {%- endif -%}
@@ -51,6 +47,9 @@
         {% else %}
         <!-- <li>DON'T FORGET TO SET LOCALE! - CHECK _config</li> -->
         {% endif %}
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://shop.flameit.io">Shop</a>
+        </li>
       </ul>
     </div>
   </div>
