@@ -37,6 +37,8 @@ en: &DEFAULT_EN
           url: "kb/faq"
     - title: "Contact"
       url: "#contact"
+    - title: "Shop"
+      exturl: "https://shop.flameit.io"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
