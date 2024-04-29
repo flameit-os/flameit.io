@@ -23,21 +23,21 @@
         <li class="nav-item dropdown">
           {%- if link.url -%}
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            role="button" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
+            role="button" href="{{ link.url }}">{{ link.title }}</a>
           {%- else -%}
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
             role="button" href="#">{{ link.title }}</a>
           {%- endif -%}
           <ul class="dropdown-menu">
             {% for sublink in link.subnav %}
-            <a class="dropdown-item" href="{{ site.baseurl }}/{{ sublink.url }}">{{ sublink.title }}</a>
+            <a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.title }}</a>
             {% endfor %}
           </ul>
         </li>
         {% else %}
         <li class="nav-item">
           {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
+          <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
           {%- else -%}
           <a class="nav-link js-scroll-trigger">{{ link.title }}</a>
           {%- endif -%}
@@ -47,9 +47,6 @@
         {% else %}
         <!-- <li>DON'T FORGET TO SET LOCALE! - CHECK _config</li> -->
         {% endif %}
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://shop.flameit.io">Shop</a>
-        </li>
       </ul>
     </div>
   </div>

@@ -23,14 +23,14 @@
         <li class="nav-item dropdown">
           {%- if link.url -%}
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            role="button" href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>
+            role="button" href="{{ link.url }}">{{ link.title }}</a>
           {%- else -%}
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
             role="button" href="#">{{ link.title }}</a>
           {%- endif -%}
           <ul class="dropdown-menu">
             {% for sublink in link.subnav %}
-            <a class="dropdown-item" href="{{ site.baseurl }}/{{ sublink.url }}">{{ sublink.title }}</a>
+            <a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.title }}</a>
             {% endfor %}
           </ul>
         </li>
