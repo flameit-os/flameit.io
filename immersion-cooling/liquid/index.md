@@ -41,6 +41,10 @@ Fewer failures rates and easy use of waste heat significantly reduces the operat
 |[Neutralisation Value]({{ site.baseurl }}/kb/faq/what-does-immersion-cooling-neutralisation-value-mean-in-practice)                       |<0,01                |mg KOH/g    |
 {: .md-table}
 
+## Buy it
+
+You can buy our hightech, high performance liquids in our shop: [FlameIT - Immersion Cooling liquids](https://shop.flameit.io/en/6-liquid-coolants)
+
 ## R&D - Material Compatibility
 
 Concerned about **[material compatibility](/immersion-cooling/material-compatibility)**? We are here to help You and Your company. Together with our R&D team and labolatory we are ready to test chemical compatibility of provided samples using accepted industrial research methods.
